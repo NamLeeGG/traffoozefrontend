@@ -31,8 +31,8 @@
     margin: auto 1rem;
 }
   
-  /* Login Page Input Elements */
-  .LoginPageForms_container input {
+/* Login Page Input Elements */
+.LoginPageForms_container input {
     width: 95%;
     margin: 1vh 0.5rem;
     padding: 0.2rem;
@@ -42,29 +42,29 @@
     border: 0;
     background-color: transparent;
     color: black;
-  }
+}
   
-  .LoginPage_icon_container {
+.LoginPage_icon_container {
     display: flex;
     align-items: center;
     margin-bottom: 2.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     border-bottom: 2px solid black;
-  }
+}
   
-  .LoginPage_icon_container input::placeholder {
+.LoginPage_icon_container input::placeholder {
     color: black;
-  }
+}
   
-  .LoginPage_icon_container input:focus::placeholder {
+.LoginPage_icon_container input:focus::placeholder {
     opacity: 0;
     transform: translate(-10px, 0);
     transition: all 0.5s ease-in-out;
-  }
+}
   
-  /* Login Page Login Button */
-  .LoginPage--login_button {
+/* Login Page Login Button */
+.LoginPage--login_button {
     display: block;
     margin: 3vh auto;
     width: 100%;
@@ -80,22 +80,22 @@
     color: white;
     border: 2px solid black;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  }
+}
   
-  .LoginPage--login_button:hover {
+.LoginPage--login_button:hover {
     border: 2px solid #ad0b0b;
     background-color: #90021f;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4), 0 0 0 2px rgba(0, 0, 0, 0.2);
-  }
+}
   
-  .LoginPage--login_button.LoginPage--login_button:active {
+.LoginPage--login_button.LoginPage--login_button:active {
     border: 2px solid #90021f;
     background-color: #90021f;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4),
       0 0 0 2px rgba(0, 0, 0, 0.2) inset;
-  }
+}
   
-  .LoginPage--register_button {
+.LoginPage--register_button {
     display: block;
     margin: 0.5rem auto;
     margin-bottom: 2.9rem;
@@ -112,29 +112,29 @@
     border: 2px solid black;
     box-shadow: 0 0.7rem 1.2rem rgba(0, 0, 0, 0.15);
     user-select: none;
-  }
+}
   
-  .LoginPage--register_button:hover {
+.LoginPage--register_button:hover {
     border: 2px solid #004999;
     background-color: #004999;
     color: white;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4), 0 0 0 2px rgba(0, 0, 0, 0.2);
-  }
+}
   
-  .LoginPage--register_button.LoginPage--register_button:active {
+.LoginPage--register_button.LoginPage--register_button:active {
     border: 1px solid #004999;
     background-color: #004999;
     color: white;
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2),
       0 0 0 2px rgba(0, 0, 0, 0.2) inset;
-  }
+}
   
-  .link_container {
+.link_container {
     display: flex;
     justify-content: center;
-  }
+}
   
-  .LoginPage--small {
+.LoginPage--small {
     display: inline-block;
     color: black;
     text-align: center;
@@ -142,26 +142,26 @@
     font-size: 0.7rem;
     margin-top: 2rem;
     cursor: pointer;
-  }
+}
   
-  .LoginPage--subtitle {
+.LoginPage--subtitle {
     color: black;
     font-size: 0.75rem;
     margin-left: 1.5rem;
-  }
+}
   
-  .LoginPage--icon {
+.LoginPage--icon {
     color: black;
     margin-left: 1.5rem;
     margin-right: 0.5rem;
     font-size: 2rem;
-  }
+}
   
-  .error_msg {
+.error_msg {
     color: red;
     font-size: 0.7rem;
     margin: -1.3rem auto 0;
     text-align: center;
-  }
+}
   
   

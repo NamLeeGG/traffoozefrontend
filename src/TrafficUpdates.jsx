@@ -18,7 +18,7 @@ import { LoadScript } from '@react-google-maps/api';
 
 const apiKey = process.env.REACT_APP_GOOGLE_API_KEY;
 
-//console.log(apiKey)
+console.log(apiKey)
 
 //window.alert(apiKey)
 
