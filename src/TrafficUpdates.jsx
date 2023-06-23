@@ -16,6 +16,12 @@ import { useLoadScript } from '@react-google-maps/api';
 
 import { LoadScript } from '@react-google-maps/api';
 
+const apiKey = process.env.REACT_APP_GOOGLE_API_KEY;
+
+//console.log(apiKey)
+
+//window.alert(apiKey)
+
 const center = { lat: 1.3521, lng: 103.8198 }
 
 const trafficJams = [
@@ -105,7 +111,7 @@ function UpdatesMap() {
       >
 
         <Box position='absolute' left={0} top={0} h='100%' w='100%'>
-        <LoadScript googleMapsApiKey="AIzaSyAtb0wcUqR30-EBUn5WgDuUP_iZyhyLsE0">
+        <LoadScript googleMapsApiKey={apiKey}>
           <GoogleMap
             center={center}
             zoom={12}
